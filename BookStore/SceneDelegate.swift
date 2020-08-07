@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  BookStore
 //
-//  Created by Vishal on 8/5/20.
+//  Created by Ambika on 8/5/20.
 //  Copyright © 2020 BookStore. All rights reserved.
 //
 
