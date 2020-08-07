@@ -10,7 +10,7 @@ import UIKit
 
 class BookDetailsViewController: UIViewController {
 
-    var bookDetailsViewModel : BookDetailsViewModel?
+    var bookDetailsViewModel : BookDetailsViewModel = BookDetailsViewModel()
     
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var lblAuthor: UILabel!
@@ -19,7 +19,7 @@ class BookDetailsViewController: UIViewController {
     @IBOutlet weak var lblYear: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        guard let bookDetailsViewModel = bookDetailsViewModel,let book = bookDetailsViewModel.book  else {
+        guard let book = bookDetailsViewModel.book  else {
             return
         }
         

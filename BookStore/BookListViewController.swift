@@ -47,7 +47,7 @@ extension BookListViewController:UITableViewDelegate,UITableViewDataSource{
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let objBookDetail = segue.destination as? BookDetailsViewController{
-            objBookDetail.bookDetailsViewModel?.book = sender as? Book
+            objBookDetail.bookDetailsViewModel.book = sender as? Book
         }
     }
 }

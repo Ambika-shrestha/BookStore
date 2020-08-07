@@ -38,7 +38,7 @@ class BookTableViewCell: UITableViewCell {
     
     func configCell(_ book:Book){
         imageBook.image = book.getImage()
-        lblBookName.text = book.getName()
+        lblBookName.text = book.name
         lblBookDiscription.text = book.description
         lblBookPublishedDate.text = book.publishedDate
         lblBookAuthor.text = book.author
